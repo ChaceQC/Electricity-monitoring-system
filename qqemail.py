@@ -3,6 +3,7 @@ from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import formataddr
 
+# 自行填写发件人邮箱和授权码
 def send_email(to_email, subject, body, sender_email=r'', password=''):
     smtp_server = 'smtp.qq.com'
     smtp_port = 465
